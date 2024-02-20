@@ -1,0 +1,75 @@
+.sneaker-chat-box {
+  max-width: 400px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.chat-header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.chat-window {
+  padding: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.user {
+  background-color: #f0f0f0;
+}
+
+.bot {
+  background-color: #e6e6ff;
+}
+
+.prompt-questions {
+  padding: 20px;
+}
+
+.prompt-question {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.input-form {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.message-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.send-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
